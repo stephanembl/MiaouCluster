@@ -3,11 +3,11 @@
 int				launch()
 {
 	MiaouCluster	miaou;
-	std::string	filename = "test.bmp";
-	int			clusters = 0;
-	int			mode = 0;
-	int			ret;
-	char		ex = '0';
+	std::string		filename = "test.bmp";
+	int				clusters = 0;
+	int				mode = 0;
+	int				ret;
+	char			ex = '0';
 
 	std::cout << "Path to the image to clusterize: ";
 	std::getline(std::cin, filename);

@@ -42,7 +42,7 @@ int													MiaouCluster::clusterLuma(BMP &bmp) const
 	int												luma;
 	Coord											tmp;
 	
-	std::cout << "Image Clustering using Luminance..." << std::endl;
+	std::cout << "Miaou Clustering using Luminance..." << std::endl;
 
 	for (int i = 0; i < bmp.TellHeight() * bmp.TellWidth()  ; ++i)
 	{
@@ -134,7 +134,7 @@ int													MiaouCluster::clusterLumaColors(BMP &bmp) const
 	int												luma;
 	Coord											tmp;
 	
-	std::cout << "Image Clustering using Luminance AND Colors..." << std::endl;
+	std::cout << "Miaou Clustering using Luminance AND Colors..." << std::endl;
 
 	for (int i = 0; i < bmp.TellHeight() * bmp.TellWidth()  ; ++i)
 	{
